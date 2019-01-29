@@ -13,8 +13,8 @@ String uname = request.getParameter("email");
 String pass = request.getParameter("password");
 String sql = "select * from login where user=? and password=?";
 String url = "jdbc:mysql://localhost:3306/cricket";
-String username="root";
-String password = "9534598529";
+String username="******"; //put your userid
+String password = "*********"; //put your password
 try {
 	Class.forName("com.mysql.jdbc.Driver");
 	Connection co = DriverManager.getConnection(url, username, password);
