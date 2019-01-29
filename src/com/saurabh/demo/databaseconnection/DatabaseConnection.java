@@ -13,8 +13,8 @@ public class DatabaseConnection {
 
 	    // Database Info
 		 String db_url = "jdbc:mysql://localhost:3306/cricket"; // put your own endpoint link
-		    String db_user = "root"; //put your password 
-		    String db_password = "9534598529"; // put your password
+		    String db_user = "******"; //put your username 
+		    String db_password = "**********"; // put your password
 	    
 	    try{
 	    	Class.forName("com.mysql.jdbc.Driver");
